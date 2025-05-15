@@ -1,5 +1,5 @@
 FROM debian:stable-slim
 
-COPY DockerizedServer /bin/DockerizedServer
+COPY goserver /bin/goserver
 
-CMD [ "/bin/DockerizedServer" ]
+CMD [ "/bin/goserver" ]
